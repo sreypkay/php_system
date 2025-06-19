@@ -1,0 +1,398 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif; /* Modern font */
+        background: linear-gradient(to right bottom, #e0f2f7, #c1e4f4); /* Soft gradient background */
+        display: flex;
+        min-height: 100vh;
+        color: #333;
+        overflow-x: hidden; /* Prevent horizontal scroll */
+    }
+
+    /* Sidebar Styling */
+    .sidebar {
+        width: 280px; /* Slightly wider sidebar */
+        background-color: #2c3e50; /* Dark blue-gray */
+        color: #ecf0f1;
+        padding: 30px 20px; /* More padding */
+        box-shadow: 4px 0 10px rgba(0, 0, 0, 0.15); /* Stronger, softer shadow */
+        display: flex;
+        flex-direction: column;
+        position: relative; /* For potential z-index issues on mobile */
+        z-index: 1000; /* Ensure it stays on top */
+    }
+
+    .sidebar h2 {
+        font-size: 2.2rem; /* Larger title */
+        font-weight: 700; /* Bolder */
+        text-align: center;
+        margin-bottom: 40px;
+        color: #ecf0f1;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        padding-bottom: 20px;
+        letter-spacing: 0.5px;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        flex-grow: 1;
+    }
+
+    .sidebar ul li {
+        padding: 15px 20px; /* More padding */
+        margin-bottom: 12px; /* More space between items */
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        border-radius: 10px; /* More rounded corners */
+        transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+        font-weight: 500; /* Medium weight for text */
+        color: #bdc3c7; /* Lighter text color for menu items */
+    }
+
+    .sidebar ul li a {
+        color: inherit; /* Inherit color from parent li */
+        text-decoration: none; /* Remove underline */
+        display: flex; /* Use flex to align icon and text */
+        align-items: center;
+        width: 100%; /* Make the link fill the li */
+    }
+
+    .sidebar ul li i {
+        margin-right: 15px; /* More space for icon */
+        font-size: 1.3rem; /* Larger icon size */
+        color: #95a5a6; /* Slightly darker icon color */
+    }
+
+    .sidebar ul li:hover {
+        background-color: #34495e; /* Lighter blue-gray on hover */
+        transform: translateX(8px); /* More pronounced slide effect */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+        color: #ffffff; /* White text on hover */
+    }
+    .sidebar ul li:hover i {
+        color: #ffffff; /* White icon on hover */
+    }
+
+    .sidebar ul li.logout {
+        margin-top: auto;
+        color: #e74c3c; /* Red color for logout */
+        font-weight: 600; /* Bolder logout text */
+    }
+
+    .sidebar ul li.logout:hover {
+        background-color: #c0392b; /* Darker red on hover */
+        color: #ffffff;
+    }
+
+    /* Main Content Area */
+    .main-container {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        border-radius: 15px; /* Rounded main container */
+        margin: 20px; /* Margin from edges */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Main content shadow */
+        overflow: hidden; /* Ensures rounded corners are visible */
+    }
+
+    /* Top Bar Styling */
+    .top-bar {
+        padding: 20px 40px; /* More padding */
+        background-color: #ffffff;
+        border-bottom: 1px solid #e0e0e0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 80px; /* Taller top bar */
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .top-bar .welcome-message {
+        font-size: 1.3rem; /* Larger font */
+        color: #555;
+        font-weight: 600;
+    }
+
+    .top-bar .welcome-message strong {
+        color: #2980b9; /* Highlight name */
+    }
+
+    .top-bar .logout-button-top { /* Renamed for clarity */
+        background-color: #f39c12; /* Orange logout button */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+    }
+    .top-bar .logout-button-top i {
+        margin-right: 8px;
+    }
+
+    .top-bar .logout-button-top:hover {
+        background-color: #e67e22; /* Darker orange on hover */
+        transform: translateY(-2px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Content Area for buttons/dashboard */
+    .content-area {
+        flex-grow: 1;
+        padding: 40px; /* More padding */
+        background-color: #fbfdff; /* Very light blue background */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        overflow-y: auto; /* Enable scrolling if content overflows */
+    }
+
+    .content-area h1 {
+        font-size: 3.5rem; /* Much larger welcome text */
+        color: #2c3e50;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: 700;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.05); /* Subtle text shadow */
+    }
+
+    .content-area hr {
+        border: none;
+        border-top: 3px solid #e0e0e0; /* Thicker HR */
+        width: 70%; /* Wider HR */
+        margin: 20px auto 60px auto; /* More space below */
+        border-radius: 5px; /* Rounded HR */
+    }
+
+    /* Button Styling (Grid) */
+    .button-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Larger base for buttons */
+        gap: 25px; /* More space between buttons */
+        width: 100%;
+        max-width: 1000px; /* Wider grid */
+        justify-content: center;
+    }
+
+    .button-link {
+        background-color: #3498db; /* Default button color (blue) */
+        color: white;
+        padding: 50px 30px; /* Generous padding */
+        text-align: center;
+        text-decoration: none;
+        font-size: 28px; /* Larger font size */
+        font-weight: 600; /* Bolder button text */
+        border-radius: 18px; /* Very rounded corners */
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* More prominent shadow */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 1.2; /* Adjust line height for text */
+    }
+
+    .button-link i {
+        font-size: 4.5rem; /* Massive icons */
+        margin-bottom: 20px; /* More space below icon */
+        color: rgba(255, 255, 255, 0.9); /* Slightly translucent icon */
+    }
+
+    .button-link:hover {
+        transform: translateY(-8px); /* More significant lift effect */
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25); /* Stronger shadow on hover */
+        filter: brightness(1.1); /* Slightly brighter on hover */
+    }
+
+    /* Specific Button Colors & Hover */
+    .button-library { background: linear-gradient(to right, #2ecc71, #27ae60); } /* Green gradient */
+    .button-library:hover { background: linear-gradient(to right, #27ae60, #2ecc71); }
+
+    .button-borrowers { background: linear-gradient(to right, #3498db, #2980b9); } /* Blue gradient */
+    .button-borrowers:hover { background: linear-gradient(to right, #2980b9, #3498db); }
+
+    .button-report { background: linear-gradient(to right, #e67e22, #d35400); } /* Orange gradient */
+    .button-report:hover { background: linear-gradient(to right, #d35400, #e67e22); }
+
+    .button-updates { background: linear-gradient(to right, #9b59b6, #8e44ad); } /* Purple gradient */
+    .button-updates:hover { background: linear-gradient(to right, #8e44ad, #9b59b6); }
+
+    /* Responsive adjustments */
+    @media (max-width: 1024px) {
+        .sidebar {
+            width: 220px;
+            padding: 25px 15px;
+        }
+        .sidebar h2 {
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+        }
+        .sidebar ul li {
+            padding: 12px 15px;
+            font-size: 0.95rem;
+        }
+        .sidebar ul li i {
+            font-size: 1.1rem;
+        }
+        .main-container {
+            margin: 15px;
+        }
+        .top-bar {
+            padding: 15px 30px;
+            min-height: 70px;
+        }
+        .top-bar .welcome-message {
+            font-size: 1.1rem;
+        }
+        .content-area {
+            padding: 30px;
+        }
+        .content-area h1 {
+            font-size: 3rem;
+            margin-bottom: 25px;
+        }
+        .button-grid {
+            gap: 20px;
+            max-width: 800px;
+        }
+        .button-link {
+            padding: 40px 25px;
+            font-size: 24px;
+        }
+        .button-link i {
+            font-size: 3.8rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        body {
+            flex-direction: column;
+        }
+        .sidebar {
+            width: 100%;
+            height: auto;
+            padding: 15px 10px;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+        .sidebar h2 {
+            display: none;
+        }
+        .sidebar ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%; /* Ensure ul takes full width to center items */
+        }
+        .sidebar ul li {
+            padding: 10px 12px;
+            margin: 5px;
+            font-size: 0.9rem;
+            flex-direction: column; /* Stack icon and text for better mobile layout */
+            align-items: center;
+            text-align: center;
+            min-width: 80px; /* Give menu items a minimum width */
+        }
+        .sidebar ul li i {
+            font-size: 1.1rem;
+            margin-right: 0; /* Remove horizontal margin */
+            margin-bottom: 5px; /* Add vertical margin */
+        }
+        .sidebar ul li.logout {
+            margin-top: 5px;
+        }
+        .main-container {
+            margin: 0; /* Remove outer margin on small screens */
+            border-radius: 0; /* Remove rounded corners */
+            box-shadow: none; /* Remove shadow */
+        }
+        .top-bar {
+            padding: 10px 20px;
+            justify-content: space-between; /* Keep welcome and logout button separate */
+            min-height: 60px;
+        }
+        .top-bar .welcome-message {
+            font-size: 1rem;
+            text-align: left;
+            flex-grow: 1; /* Allow message to take space */
+        }
+        .top-bar .logout-button-top {
+            padding: 8px 15px;
+            font-size: 0.9rem;
+        }
+        .top-bar .logout-button-top i {
+            font-size: 0.9rem;
+        }
+        .content-area {
+            padding: 20px;
+        }
+        .content-area h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .content-area hr {
+            width: 90%;
+            margin: 15px auto 30px auto;
+        }
+        .button-grid {
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Smaller buttons */
+            gap: 15px;
+        }
+        .button-link {
+            padding: 30px 20px;
+            font-size: 20px;
+            border-radius: 12px;
+        }
+        .button-link i {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .sidebar ul li {
+            font-size: 0.75rem;
+            padding: 8px 6px;
+            min-width: 60px;
+        }
+        .sidebar ul li i {
+            font-size: 1rem;
+            margin-bottom: 3px;
+        }
+        .top-bar .welcome-message {
+            font-size: 0.85rem;
+        }
+        .top-bar .logout-button-top {
+            font-size: 0.8rem;
+            padding: 6px 12px;
+        }
+        .content-area h1 {
+            font-size: 2rem;
+        }
+        .button-grid {
+            grid-template-columns: 1fr; /* Stack buttons vertically on very small screens */
+            gap: 10px;
+        }
+        .button-link {
+            font-size: 18px;
+            padding: 25px 15px;
+        }
+        .button-link i {
+            font-size: 2.5rem;
+        }
+    }
+    

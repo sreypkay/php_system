@@ -1,0 +1,414 @@
+[18-Jun-2025 15:04:32 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:04:33 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:04:35 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:04:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:04:35 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:04:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:04:35 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:04:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:04:35 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:04:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:04:35 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:04:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:05:12 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:05:12 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:05:12 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:05:12 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:05:12 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:05:12 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:05:12 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:05:12 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:05:12 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:05:12 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:05:12 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:05:12 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:08:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 310
+[18-Jun-2025 15:08:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 310
+[18-Jun-2025 15:08:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 310
+[18-Jun-2025 15:08:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 310
+[18-Jun-2025 15:08:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 310
+[18-Jun-2025 15:12:47 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:12:47 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:12:47 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:12:47 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:12:47 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:12:47 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:12:47 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:17:22 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:17:22 Europe/Berlin] Book query: SELECT b.* FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:17:22 Europe/Berlin] Book found - ID: 3, Title: Clean Code
+[18-Jun-2025 15:17:22 Europe/Berlin] Book found - ID: 6, Title: HTML
+[18-Jun-2025 15:17:22 Europe/Berlin] Book found - ID: 2, Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:17:22 Europe/Berlin] Book found - ID: 5, Title: Naruto
+[18-Jun-2025 15:17:22 Europe/Berlin] Book found - ID: 4, Title: One Piece
+[18-Jun-2025 15:17:51 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:17:51 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:17:51 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:17:51 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:17:51 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:17:51 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:17:51 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:17:51 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:17:51 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:17:51 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:17:51 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:17:51 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:13 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:18:13 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:18:13 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:18:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:13 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:18:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:13 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:18:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:13 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:18:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:13 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:18:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:33 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:18:33 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:18:33 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:18:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:33 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:18:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:33 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:18:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:33 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:18:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:33 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:18:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:48 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:18:48 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:18:48 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:18:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:48 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:18:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:48 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:18:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:48 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:18:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:48 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:18:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:56 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:18:56 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:18:56 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:18:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:56 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:18:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:56 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:18:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:56 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:18:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:18:56 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:18:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:19:17 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:19:17 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:19:18 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:19:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:19:18 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:19:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:19:18 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:19:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:19:18 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:19:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:19:18 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:19:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:24:28 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:24:28 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:24:28 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:24:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:24:28 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:24:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:24:28 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:24:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:24:28 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:24:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:24:28 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:24:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:25:03 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:25:03 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:25:03 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:25:03 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:25:03 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:25:03 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:25:03 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:25:03 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:25:03 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:25:03 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:25:03 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:25:03 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:26:32 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:26:32 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:26:32 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:26:32 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 320
+[18-Jun-2025 15:26:32 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:26:32 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 320
+[18-Jun-2025 15:26:32 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:26:32 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 320
+[18-Jun-2025 15:26:32 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:26:32 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 320
+[18-Jun-2025 15:26:32 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:26:32 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 320
+[18-Jun-2025 15:30:02 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:30:02 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:30:02 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:30:02 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 320
+[18-Jun-2025 15:30:02 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:30:02 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 320
+[18-Jun-2025 15:30:02 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:30:02 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 320
+[18-Jun-2025 15:30:02 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:30:03 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 320
+[18-Jun-2025 15:30:03 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:30:03 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 320
+[18-Jun-2025 15:30:25 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:30:25 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:30:25 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:30:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:30:25 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:30:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:30:25 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:30:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:30:25 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:30:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:30:25 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:30:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:35:07 Europe/Berlin] Fetching available books...
+[18-Jun-2025 15:35:07 Europe/Berlin] Book query: SELECT * FROM tblbooks b 
+                                   LEFT JOIN tblborrower br ON b.book_id = br.book_id 
+                                   AND br.status = 'borrowed'
+                                   WHERE br.borrow_id IS NULL 
+                                   ORDER BY b.title
+[18-Jun-2025 15:35:07 Europe/Berlin] Book found - ID: , Title: Clean Code
+[18-Jun-2025 15:35:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:35:07 Europe/Berlin] Book found - ID: , Title: HTML
+[18-Jun-2025 15:35:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:35:07 Europe/Berlin] Book found - ID: , Title: Learning PHP, MySQL & JavaScript
+[18-Jun-2025 15:35:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:35:07 Europe/Berlin] Book found - ID: , Title: Naruto
+[18-Jun-2025 15:35:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:35:07 Europe/Berlin] Book found - ID: , Title: One Piece
+[18-Jun-2025 15:35:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 319
+[18-Jun-2025 15:40:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 15:40:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 15:40:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 15:40:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 15:40:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 15:42:32 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 15:42:32 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 15:42:32 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 15:42:32 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 15:42:32 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 16:57:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 16:57:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 16:57:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 16:57:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 16:57:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:07:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:07:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:07:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:07:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:07:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:10:39 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:10:39 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:10:39 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:10:39 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:10:39 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:18:57 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:18:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:18:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:18:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:18:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:26:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\learn php\htdocs\php_system\sidebar.php:1) in D:\learn php\htdocs\php_system\Borrow.php on line 20
+[18-Jun-2025 17:26:36 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\learn php\htdocs\php_system\sidebar.php:1) in D:\learn php\htdocs\php_system\Borrow.php on line 20
+[18-Jun-2025 17:26:39 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\learn php\htdocs\php_system\sidebar.php:1) in D:\learn php\htdocs\php_system\Borrow.php on line 20
+[18-Jun-2025 17:27:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:27:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:27:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:27:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:27:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:49:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:49:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:49:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:49:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:49:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:51:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 308
+[18-Jun-2025 17:56:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 315
+[18-Jun-2025 17:56:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 315
+[18-Jun-2025 17:56:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 315
+[18-Jun-2025 17:56:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 315
+[18-Jun-2025 17:56:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 315
+[18-Jun-2025 18:09:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 322
+[18-Jun-2025 18:09:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 322
+[18-Jun-2025 18:09:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 322
+[18-Jun-2025 18:09:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 322
+[18-Jun-2025 18:09:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 322
+[18-Jun-2025 18:15:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 322
+[18-Jun-2025 18:15:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 322
+[18-Jun-2025 18:15:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 322
+[18-Jun-2025 18:15:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 322
+[18-Jun-2025 18:15:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 322
+[18-Jun-2025 18:16:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:16:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:16:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:16:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:16:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:20:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:20:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:20:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:20:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:20:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:26:20 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'b.borrow_id' in 'field list' in D:\learn php\htdocs\php_system\Borrow.php:224
+Stack trace:
+#0 D:\learn php\htdocs\php_system\Borrow.php(224): mysqli->query('SELECT \n       ...')
+#1 {main}
+  thrown in D:\learn php\htdocs\php_system\Borrow.php on line 224
+[18-Jun-2025 18:28:45 Europe/Berlin] Students query: SELECT * FROM tblstudent ORDER BY lastname, firstname
+[18-Jun-2025 18:30:26 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 318
+[18-Jun-2025 18:30:26 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 318
+[18-Jun-2025 18:30:26 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 318
+[18-Jun-2025 18:30:26 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 318
+[18-Jun-2025 18:30:26 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 318
+[18-Jun-2025 18:30:51 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:30:51 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:30:51 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:30:51 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:30:51 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 317
+[18-Jun-2025 18:35:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:35:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:35:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:35:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:35:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:36:04 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:36:04 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:36:04 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:36:04 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:36:04 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:36:05 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:36:05 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:36:05 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:36:05 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:36:05 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:42:43 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:42:43 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:42:43 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:42:43 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:42:43 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 305
+[18-Jun-2025 18:43:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 440
+[18-Jun-2025 18:43:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 440
+[18-Jun-2025 18:43:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 440
+[18-Jun-2025 18:43:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 440
+[18-Jun-2025 18:47:05 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 422
+[18-Jun-2025 18:47:05 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 422
+[18-Jun-2025 18:47:05 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 422
+[18-Jun-2025 18:47:05 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 422
+[18-Jun-2025 18:49:27 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 426
+[18-Jun-2025 18:49:27 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 426
+[18-Jun-2025 18:49:27 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 426
+[18-Jun-2025 18:49:27 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 426
+[18-Jun-2025 18:52:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 426
+[18-Jun-2025 18:52:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 426
+[18-Jun-2025 18:52:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 426
+[18-Jun-2025 18:52:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 426
+[18-Jun-2025 18:53:16 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 426
+[18-Jun-2025 18:53:16 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 426
+[18-Jun-2025 18:53:16 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 426
+[18-Jun-2025 18:53:16 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 426
+[18-Jun-2025 18:54:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 440
+[18-Jun-2025 18:54:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 440
+[18-Jun-2025 18:54:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 440
+[18-Jun-2025 18:54:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\learn php\htdocs\php_system\Borrow.php on line 440
